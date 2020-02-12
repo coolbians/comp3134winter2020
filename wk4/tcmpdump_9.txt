@@ -1,0 +1,17 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp
+
+...
+
+
+06:10:57.904406 IP lamp-s-1vcpu-1gb-tor1-01.ssh > bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632: Flags [P.], seq 1996476:1996688, ack 1189, win 320, length 212
+06:10:57.904470 IP lamp-s-1vcpu-1gb-tor1-01.ssh > bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632: Flags [P.], seq 1996688:1996900, ack 1189, win 320, length 212
+06:10:57.904537 IP lamp-s-1vcpu-1gb-tor1-01.ssh > bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632: Flags [P.], seq 1996900:1997112, ack 1189, win 320, length 212
+06:10:57.904599 IP lamp-s-1vcpu-1gb-tor1-01.ssh > bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632: Flags [P.], seq 1997112:1997324, ack 1189, win 320, length 212
+06:10:57.904664 IP lamp-s-1vcpu-1gb-tor1-01.ssh > bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632: Flags [P.], seq 1997324:1997536, ack 1189, win 320, length 212
+06:10:57.904729 IP lamp-s-1vcpu-1gb-tor1-01.ssh > bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632: Flags [P.], seq 1997536:1997748, ack 1189, win 320, length 212
+06:10:57.904778 IP bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1189:1225, ack 1961308, win 516, length 36
+06:10:57.904843 IP lamp-s-1vcpu-1gb-tor1-01.ssh > bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632: Flags [P.], seq 1997748:1997960, ack 1225, win 320, length 212
+
+9694 packets captured
+9711 packets received by filter
+17 packets dropped by kernel

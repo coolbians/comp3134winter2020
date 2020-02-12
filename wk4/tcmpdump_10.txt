@@ -1,0 +1,14 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 port 22
+
+
+...
+
+
+06:12:03.268410 IP lamp-s-1vcpu-1gb-tor1-01.ssh > bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632: Flags [P.], seq 1550552:1550764, ack 937, win 320, length 212
+06:12:03.268515 IP lamp-s-1vcpu-1gb-tor1-01.ssh > bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632: Flags [P.], seq 1550764:1550976, ack 937, win 320, length 212
+06:12:03.268611 IP lamp-s-1vcpu-1gb-tor1-01.ssh > bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632: Flags [P.], seq 1550976:1551188, ack 937, win 320, length 212
+06:12:03.268636 IP bras-vprn-toroon3642w-lp130-14-70-49-253-11.dsl.bell.ca.51632 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 937:973, ack 1537204, win 516, length 36
+
+7543 packets captured
+7563 packets received by filter
+20 packets dropped by kernel

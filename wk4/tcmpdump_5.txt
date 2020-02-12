@@ -1,0 +1,26 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -xx -i eth0
+
+... 
+
+	0x0080:  b60d 05d0 5611 c645 22cb c308 2cb9 d8c8
+        0x0090:  43b3 1d27 96aa c99d 0851 ca28 13e7 7248
+        0x00a0:  4c50 c266 95fd dc9b d92e 1611 7197 824e
+        0x00b0:  9d1e e181 cb50 00a5 66d4 742b d7d5 c748
+        0x00c0:  a404 d53e 85c7 bf1b 115f 0a7a 329d dbc6
+        0x00d0:  9482 7efa 2ddc ad69 faa1 c643 df72 ba9d
+        0x00e0:  c640 1225 258a 6902 9ab6 45e7 035c 40e4
+        0x00f0:  23ff 684c b22e 9606 8cb0 a4bc 0783 adff
+        0x0100:  f937 a7a6 db21 aec9 63a2 b7f0 daf5 00b3
+        0x0110:  60e2 9cdc 6858 0f94 8d71 1558 a3b5 cf91
+        0x0120:  1b3f 6687 5c33 ae7c d0e5 9bf5 08a0 f51f
+        0x0130:  b50e 11a7 d9fa 4057 2f44 2cd7 793d 4bba
+        0x0140:  fbf2 e951 3677 bfc6 5a97 dbb3 5179 c5c5
+        0x0150:  bc7d 98d9 8143 19f1 7952 d3e1 5c62 2a7e
+        0x0160:  3065 1e23 4f24 3689 3a81 12e3 0f2e f492
+        0x0170:  25ac 50ee 8eb6 7569 8454 e842 d40a 73c5
+        0x0180:  e849 25cb d02f ece5 f9a5 f4e5 fc78 86e2
+        0x0190:  146d ebea 5437 e505 821e
+
+3726 packets captured
+23405 packets received by filter
+19673 packets dropped by kernel
