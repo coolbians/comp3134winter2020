@@ -1,0 +1,18 @@
+google.ca
+Source: whois.arin.netIP Address: 172.217.12.131Name: GOOGLEHandle: NET-172-217-0-0-1Registration Date: 16/04/12Range: 172.217.0.0-172.217.255.255Org: Google LLCOrg Handle: GOGLAddress: 1600 Amphitheatre Parkway
+City: Mountain ViewState/Province: CAPostal Code: 94043Country: United States
+
+facebook.com
+Source: whois.ripe.netIP Address: 31.13.66.35
+
+reddit.com
+Source: whois.arin.netIP Address: 151.101.65.140Name: SKYCA-3Handle: NET-151-101-0-0-1Registration Date: 01/02/16Range: 151.101.0.0-151.101.255.255Org: FastlyOrg Handle: SKYCA-3Address: PO Box 78266
+City: San FranciscoState/Province: CAPostal Code: 94107Country: United States
+
+youtube.com
+Source: whois.arin.netIP Address: 172.217.3.110Name: GOOGLEHandle: NET-172-217-0-0-1Registration Date: 16/04/12Range: 172.217.0.0-172.217.255.255Org: Google LLCOrg Handle: GOGLAddress: 1600 Amphitheatre Parkway
+City: Mountain ViewState/Province: CAPostal Code: 94043Country: United States
+
+imgur.com
+Source: whois.arin.netIP Address: 151.101.20.193Name: SKYCA-3Handle: NET-151-101-0-0-1Registration Date: 01/02/16Range: 151.101.0.0-151.101.255.255Org: FastlyOrg Handle: SKYCA-3Address: PO Box 78266
+City: San FranciscoState/Province: CAPostal Code: 94107Country: United States

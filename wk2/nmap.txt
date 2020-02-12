@@ -1,0 +1,57 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap google.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-02-12 03:01 UTC
+Nmap scan report for google.ca (172.217.1.3)
+Host is up (0.00097s latency).
+Other addresses for google.ca (not scanned): 2607:f8b0:400b:809::2003
+rDNS record for 172.217.1.3: iad23s25-in-f3.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 9.39 seconds
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 22 google.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-02-12 03:06 UTC
+Nmap scan report for google.ca (172.217.1.163)
+Host is up (0.0016s latency).
+Other addresses for google.ca (not scanned): 2607:f8b0:400b:80f::2003
+rDNS record for 172.217.1.163: yyz10s04-in-f3.1e100.net
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 1-30 google.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-02-12 03:05 UTC
+Nmap scan report for google.ca (172.217.1.3)
+Host is up (0.0015s latency).
+Other addresses for google.ca (not scanned): 2607:f8b0:400b:80f::2003
+rDNS record for 172.217.1.3: yyz10s14-in-f3.1e100.net
+All 30 scanned ports on google.ca (172.217.1.3) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 2.17 seconds
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -F google.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-02-12 03:07 UTC
+Nmap scan report for google.ca (172.217.1.163)
+Host is up (0.00078s latency).
+Other addresses for google.ca (not scanned): 2607:f8b0:400b:80f::2003
+rDNS record for 172.217.1.163: yyz10s04-in-f3.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.43 seconds

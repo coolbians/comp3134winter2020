@@ -1,0 +1,10 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# ping google.ca -w 4
+PING google.ca (172.217.1.163) 56(84) bytes of data.
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=1 ttl=58 time=1.64 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=2 ttl=58 time=0.898 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=3 ttl=58 time=0.911 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=4 ttl=58 time=0.956 ms
+
+--- google.ca ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 0.898/1.102/1.645/0.315 ms

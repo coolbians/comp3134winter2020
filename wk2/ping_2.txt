@@ -1,0 +1,12 @@
+C:\Users\ianmi>ping 165.227.33.185 -w 6
+
+Pinging 165.227.33.185 with 32 bytes of data:
+Reply from 165.227.33.185: bytes=32 time=19ms TTL=52
+Reply from 165.227.33.185: bytes=32 time=18ms TTL=52
+Reply from 165.227.33.185: bytes=32 time=18ms TTL=52
+Reply from 165.227.33.185: bytes=32 time=19ms TTL=52
+
+Ping statistics for 165.227.33.185:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 18ms, Maximum = 19ms, Average = 18ms
