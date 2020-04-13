@@ -1,0 +1,15 @@
+G.
+
+1)
+The query will only select rows where the column Active = 1.
+The row with first name "Ben" was found but since the Active column = 0, it does not fulfill the query and no results are returned as expected
+
+2)
+The results are not as expected. It returns the row though it does not fulfill the query. It appears as though the second part of the WHERE clause 
+which specifies only rows with Active=0 is being ignored
+
+3)
+The results are as expected. No results are returned
+
+
+
