@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lab 8 </title>
+    </head>
+
+    <body>
+        <h1> Lab 8 Title </h1>
+        <form method="POST" id="XSS" action="csfr.php">
+            <input type="text" name="username" id="txt" value="host" required>
+            <input class="submit" type="submit" name='submit'>
+            <div id="msg" placeholder="" name="message">
+            </div>
+        </form>
+        
+        <script>
+            document.getElementById("XSS").addEventListener("click", function(event){
+            event.preventDefault()
+            document.getElementById("msg").innerHTML = document.getElementById("txt").value;
+            });
+        </script>
+    </body>
+</html>
